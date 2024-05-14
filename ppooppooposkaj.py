@@ -13,6 +13,7 @@ W = '\033[0;37m'  # رمادي
 e = "\u001b[38;5;242m" #رمادي داكن
 m = "\u001b[38;5;15m" #ابيض
 E = "\u001b[38;5;8m" #رمادي فاتح
+p = '\x1b[1m'#عريض
 #====الوان====
 ses=requests.Session()
 url = "http://api.scraperapi.com?api_key=eee4ac692be71e520ca4fdc5dacbd6f2&url=http://httpbin.org/ip"
@@ -22,10 +23,7 @@ try:
 except Exception as e:
     print('\x1b[1;91mError: \x1b[96m{}'.format(e))
 prox = open('.Baytai.txt', 'r').read().splitlines()
-logo ="""
-\033[2;32m
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+logo ="""\033[2;32m⠀\x1b[1m⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -68,15 +66,6 @@ token = input(f'{E}E{F}n{E}t{F}e{E}r {F}y{E}u{F}r{E}e {F}T{E}o{F}k{E}e{F}n : ')
 os.system('clear')
 print(logo)
 id = input(f'{E}I{F}D :')
-import os,time
-yso = '2041113475'
-if id == yso:
- pass
- print("تفضل")
- time.sleep(1)
- os.system('clear')
-else:
- exit('ادعبل')
 os.system('clear')
 print("—"*60)
 print(logo)
@@ -99,11 +88,11 @@ def cc():
     D = '_'
     Sd = '.'
     def random_user():
-        a1 = random.choice(D)
-        a2 = random.choice(A)
-        a3 = random.choice(D)
-        a4 = random.choice(A)
-        a5 = random.choice(D)
+        a1 = random.choice(A)
+        a2 = random.choice(D)
+        a3 = random.choice(A)
+        a4 = random.choice(D)
+        a5 = random.choice(A)
         return a1 + a2 + a3 + a4 + a5
 
     while True:
@@ -112,28 +101,28 @@ def cc():
         url = 'https://www.instagram.com/api/v1/web/accounts/web_create_ajax/attempt/'
         
         headers = {
-		    'accept': '*/*',
-		    'accept-language': 'ar-US,ar;q=0.9,es-US;q=0.8,es;q=0.7,en-US;q=0.6,en;q=0.5',
-		    'content-type': 'application/x-www-form-urlencoded',
-		    'origin': 'https://www.instagram.com',
-		    'referer': 'https://www.instagram.com/accounts/emailsignup/',
-		    'sec-ch-prefers-color-scheme': 'dark',
-		    'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
-		    'sec-ch-ua-full-version-list': '"Not-A.Brand";v="99.0.0.0", "Chromium";v="124.0.6327.2"',
-		    'sec-ch-ua-mobile': '?0',
-		    'sec-ch-ua-model': '""',
-		    'sec-ch-ua-platform': '"Linux"',
-		    'sec-ch-ua-platform-version': '""',
-		    'sec-fetch-dest': 'empty',
-		    'sec-fetch-mode': 'cors',
-		    'sec-fetch-site': 'same-origin',
-		    'user-agent': str(generate_user_agent()),
-		    'x-asbd-id': '129477',
-		    'x-csrftoken': 'MsWV0Duegp5MdlFeqiY1K4ru5YQwHMZz',
-		    'x-ig-app-id': '936619743392459',
-		    'x-ig-www-claim': 'hmac.AR305alSes4wvRZszhdZhwfPwNku8GdSRxHUcxUbEWDd9qLI',
-		    'x-instagram-ajax': '1013148623',
-		    'x-requested-with': 'XMLHttpRequest',
+    'accept': '*/*',
+    'accept-language': 'ar-US,ar;q=0.9,es-US;q=0.8,es;q=0.7,en-US;q=0.6,en;q=0.5',
+    'content-type': 'application/x-www-form-urlencoded',
+    'origin': 'https://www.instagram.com',
+    'referer': 'https://www.instagram.com/accounts/emailsignup/',
+    'sec-ch-prefers-color-scheme': 'dark',
+    'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
+    'sec-ch-ua-full-version-list': '"Not-A.Brand";v="99.0.0.0", "Chromium";v="124.0.6327.4"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-model': '""',
+    'sec-ch-ua-platform': '"Linux"',
+    'sec-ch-ua-platform-version': '""',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    'user-agent': str(generate_user_agent()),
+    'x-asbd-id': '129477',
+    'x-csrftoken': 'bIVGUyLgnH9F82jqpHZewCBoC2fqBNfP',
+    'x-ig-app-id': '936619743392459',
+    'x-ig-www-claim': '0',
+    'x-instagram-ajax': '1013491125',
+    'x-requested-with': 'XMLHttpRequest',
 		}
 		
         data = {
