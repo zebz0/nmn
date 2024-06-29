@@ -52,18 +52,8 @@ logo ="""\033[2;36m⠀\x1b[1m⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 """
 print(logo)
 #====لوكو====
-#ملاحضه تم اضافت التوكن و الايدي لمعرفت من صاد في الاداه 
-tokenzebz = "7042398014:AAHwjhRdiGzeOFHRc95AFO0njkPaRrhoASw"
-idzebz = 6060332252
 token = input(f' {E} Enter The {B}Token :{E} ')
 id = input(f' {E} Enter The {B}ID :{E} ')
-TOP = """
-تم تشغيل الاداه
-"""
-po=[
-"الشخص",f"tg://openmessage?user_id={id}",
-            ]
-pazok.tele_ms(tokenzebz,idzebz,txt=TOP,buttons=po)            
 os.system('clear')
 print("—"*60)
 print(logo)
@@ -90,12 +80,12 @@ def cc():
         A7 = "1234567890"
 ############################      
         s1 = ''.join(random.choices(A1))
-        s2 = ''.join(random.choices(A1))
-        s3 = ''.join(random.choices(A1))
-        s4 = ''.join(random.choices(A1))
-        s5 = ''.join(random.choices(A1))
-        s6 = ''.join(random.choices(A1))
-        s7 = ''.join(random.choices(A1))
+        s2 = ''.join(random.choices(A2))
+        s3 = ''.join(random.choices(A3))
+        s4 = ''.join(random.choices(A4))
+        s5 = ''.join(random.choices(A5))
+        s6 = ''.join(random.choices(A6))
+        s7 = ''.join(random.choices(A7))
 ############################        
         a1 = "qwertyuiopasdfghjklzxcvbnm1234567890"
         a2 = "qwertyuiopasdfghjklzxcvbnm1234567890"
@@ -106,12 +96,12 @@ def cc():
         a7 = "qwertyuiopasdfghjklzxcvbnm1234567890"
 ############################        
         v1 = ''.join(random.choices(a1))
-        v2 = ''.join(random.choices(a1))
-        v3 = ''.join(random.choices(a1))
-        v4 = ''.join(random.choices(a1))
-        v5 = ''.join(random.choices(a1))
-        v6 = ''.join(random.choices(a1))
-        v7 = ''.join(random.choices(a1))
+        v2 = ''.join(random.choices(a2))
+        v3 = ''.join(random.choices(a3))
+        v4 = ''.join(random.choices(a4))
+        v5 = ''.join(random.choices(a5))
+        v6 = ''.join(random.choices(a6))
+        v7 = ''.join(random.choices(a7))
 ############################        
         user1 = v1+'__'+v2+v3
         user2 = '_'+v1+v1+v5+v5
@@ -212,17 +202,12 @@ user → `{user}`
 
 ◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇      
       
-            """
-            RTR = """
-تم تصيد يوزر انستا            
-            """
-            pop=[
-"الشخص",f"tg://openmessage?user_id={id}",
-            ]             
+            """            
+                        
             pooo=[
 "المطور",f"t.me/e_z_d",
             ]
-            pazok.tele_ms(tokenzebz,idzebz,txt=RTR,buttons=pop)            
+            pazok.tele_ms(tokenzebz,idzebz,txt=RRT,buttons=pooo)            
         else:
             print(f'{Z} Bad{B} → {Z} {user}', end='\r')    
 Threads = []
