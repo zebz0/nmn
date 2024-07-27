@@ -7,8 +7,8 @@ m = "\u001b[38;5;15m" #ابيض
 E = "\u001b[38;5;8m" #رمادي فاتح
 Aa =0
 Bb = 0
-token = "6504402239:AAHkJsUdnbkPpeyHK1Jt-Zgps3rvAaGCju4"
-id = 6060332252
+token = "7353948443:AAEgUiXKfjgIicOh1stQGwnh9ZnsIbZ5d4g"
+id = 7070190019
 logo = """
 
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
