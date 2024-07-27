@@ -7,6 +7,7 @@ m = "\u001b[38;5;15m" #ابيض
 E = "\u001b[38;5;8m" #رمادي فاتح
 Aa =0
 Bb = 0
+khjj
 token = "6504402239:AAHkJsUdnbkPpeyHK1Jt-Zgps3rvAaGCju4"
 id = 6060332252
 logo = """
