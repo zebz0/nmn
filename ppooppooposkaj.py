@@ -56,7 +56,7 @@ def cc():
         user3 = a+a+'_'+b+c
         user4 = a+a+b+'_'+b
         us = user1,user2,user3,user4
-        user="".join(random.choice(uss))
+        user="".join(random.choice(us))
 
         def gen():
             import random
