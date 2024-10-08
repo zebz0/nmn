@@ -92,19 +92,6 @@ def cc():
     'opt_into_one_tap': 'false',
     'use_new_suggested_user_name': 'true',
 }
-        import random
-        
-        with open('proxy_lest.txt', 'r') as file:
-            lines = file.readlines()
-        
-        if lines:
-            random_line = random.choice(lines)
-            
-        else:
-            print("الملف فارغ.")  
-        proxies ={'https':f'socks5://{random_line}','https':f'socks4://{random_line}','https':f'http://{random_line}'}
-                  
-
 
         try:
             re = requests.post('https://www.instagram.com/api/v1/web/accounts/web_create_ajax/attempt/', headers=headers, data=data).text
@@ -121,7 +108,7 @@ def cc():
                 Bb += 1
                 print(f'{Z} [ {Bb} ] BAD USER insta : {user} ', end='\r')
         except requests.RequestException as e:
-            print(f"Request failed")
+            print(f"Communication is weak ")
             time.sleep(40)
 
 Threads = []
