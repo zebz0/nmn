@@ -28,7 +28,7 @@ E = "\u001b[38;5;8m" #رمادي فاتح
 
 token = input(f'{sf} Enter Your {pr}Token : {sf} ')
 id =input(f'{sf} EnteR Your {pr}Id : {sf} ')
-
+os.system('clear')
 
 
 Aa = 0
