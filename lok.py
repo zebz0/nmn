@@ -14,13 +14,13 @@ def cc():
         u = ''.join(random.choices(a))
         s = ''.join(random.choices(a))
         e = ''.join(random.choices(a))
-        r = ''.join(random.choices(b))
+        r = ''.join(random.choices(a))
         U = r + e + s + u
         S = e + r + s + u
         E = e + s + r + u
         R = e + s + u + '_'
         T = u+s+e+r
-        USER = [U, S, E, R]
+        USER = [T, T]
         user = ''.join(random.choices(USER))
         
         # التحقق من أن اسم المستخدم لا ينتهي بنقطة
