@@ -14,7 +14,7 @@ def cc():
         u = ''.join(random.choices(a))
         s = ''.join(random.choices(a))
         e = ''.join(random.choices(a))
-        r = ''.join(random.choices(a))
+        r = ''.join(random.choices(b))
         U = r + e + s + u
         S = e + r + s + u
         E = e + s + r + u
